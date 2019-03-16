@@ -3,15 +3,15 @@ yay -S vertex-themes
 
 Estilo
 - Vertex-Dark
-- Vimix Laptop
+- Vimix Dark Laptop Ruby
 Icones
 - Vibrancy-Dark-Graphite
 Gerenciador de janelas
 - Vertex-Dark
-- Vimix Laptop
+- Vimix Dark Laptop Ruby
 LightDM GTK+ Greeter
 - Adwaita-dark
-- Vimix Laptop
+- Vimix Dark Laptop Ruby
 - Vibrancy-Dark-Graphite
 
 yain vimix-gtk-themes-git vimix-icon-theme-git
