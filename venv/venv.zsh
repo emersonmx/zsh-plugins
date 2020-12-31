@@ -6,5 +6,9 @@ function mkvenv() {
     pip install --upgrade pip setuptools wheel
 }
 
-alias rmvenv="rm -rI \"$ZSH_VENV_DIRNAME\""
+function rmvenv() {
+    [[ $(command -v deactivate) ]] && deactivate
+    rm -rI "$ZSH_VENV_DIRNAME"
+}
+
 alias source-venv="source \"$ZSH_VENV_DIRNAME/bin/activate\""
