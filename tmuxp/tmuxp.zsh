@@ -7,7 +7,14 @@ fi
 function tpl() {
     if (( $+commands[fzf] ))
     then
-        tmuxp load "$@" $(tmuxp ls | fzf)
+        config="$(tmuxp ls | fzf)"
+        if [[ -z $config ]]
+        then
+            echo "config not selected"
+            return 1
+        fi
+
+        tmuxp load "$@" $config
     else
         tmuxp load "$@"
     fi
