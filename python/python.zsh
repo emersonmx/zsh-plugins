@@ -1,14 +1,14 @@
-ZSH_VENV_DIRNAME=".venv"
+ZSH_PYTHON_VENV_DIRNAME=".venv"
 
 function mkvenv() {
-    python -m venv "$ZSH_VENV_DIRNAME"
-    source "$ZSH_VENV_DIRNAME/bin/activate"
+    python -m venv "$ZSH_PYTHON_VENV_DIRNAME"
+    source "$ZSH_PYTHON_VENV_DIRNAME/bin/activate"
     pip install --upgrade pip setuptools wheel
 }
 
 function rmvenv() {
     [[ $(command -v deactivate) ]] && deactivate
-    rm -rI "$ZSH_VENV_DIRNAME"
+    rm -rI "$ZSH_PYTHON_VENV_DIRNAME"
 }
 
 function mkpkg() {
@@ -17,4 +17,4 @@ function mkpkg() {
     touch "$pkgname/__init__.py"
 }
 
-alias source-venv="source \"$ZSH_VENV_DIRNAME/bin/activate\""
+alias source-venv="source \"$ZSH_PYTHON_VENV_DIRNAME/bin/activate\""
