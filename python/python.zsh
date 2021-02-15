@@ -11,4 +11,10 @@ function rmvenv() {
     rm -rI "$ZSH_VENV_DIRNAME"
 }
 
+function mkpkg() {
+    pkgname="$1"
+    mkdir -p "$pkgname"
+    touch "$pkgname/__init__.py"
+}
+
 alias source-venv="source \"$ZSH_VENV_DIRNAME/bin/activate\""
