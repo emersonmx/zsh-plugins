@@ -11,7 +11,7 @@ function rmvenv() {
     rm -rI "$ZSH_PYTHON_VENV_DIRNAME"
 }
 
-function mkpkg() {
+function mkpypkg() {
     pkgname="$1"
     mkdir -p "$pkgname"
     touch "$pkgname/__init__.py"
