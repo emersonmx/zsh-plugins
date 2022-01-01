@@ -20,5 +20,3 @@ function mkpypkg() {
 alias source-venv="source \"$ZSH_PYTHON_VENV_DIRNAME/bin/activate\""
 alias py="python"
 alias ipy="ipython"
-alias pfr="pip freeze > requirements.txt"
-alias pir="pip install -r requirements.txt"
