@@ -3,7 +3,7 @@
 ## Livros, guias, referências, etc
 
 - [https://bevy-cheatbook.github.io/](https://bevy-cheatbook.github.io/)
-- [https://docs.rs/bevy/0.6.0/bevy/index.html](https://docs.rs/bevy/0.6.0/bevy/index.html)
+- [https://docs.rs/bevy/latest/bevy/index.html](https://docs.rs/bevy/latest/bevy/index.html)
 - [https://bevyengine.org/learn/book/introduction/](https://bevyengine.org/learn/book/introduction/)
 
 ## TODO
