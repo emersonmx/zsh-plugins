@@ -6,12 +6,10 @@
 - [LLD](https://lld.llvm.org/) (linker)
 - [CMake](https://cmake.org/) (automação de construção)
 - [Conan](https://conan.io/) (gerenciador de pacotes)
-- [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) (formatador de
-  código)
+- [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) (formatador de código)
 - [Clang-Include-Fixer](https://clang.llvm.org/extra/clang-include-fixer.html)
   (auto insere includes)
-- [ClangTidy](https://clang.llvm.org/extra/clang-tidy/) (analisador de código
-  estático)
+- [ClangTidy](https://clang.llvm.org/extra/clang-tidy/) (analisador de código estático)
 - [LLDB](https://lldb.llvm.org/) (debugger)
 
 ## Bibliotecas
@@ -21,8 +19,7 @@
 
 ## Boas práticas
 
-- [The Best and Worst GCC Compiler Flags For
-  Embedded](https://interrupt.memfault.com/blog/best-and-worst-gcc-clang-compiler-flags)
+- [The Best and Worst GCC Compiler Flags For Embedded](https://interrupt.memfault.com/blog/best-and-worst-gcc-clang-compiler-flags)
 
 ## Awesome lists
 
