@@ -8,3 +8,4 @@
 ## Code
 
 - [C](code/c.md)
+- [Rust](code/rust.md)
