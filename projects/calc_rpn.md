@@ -1,5 +1,7 @@
 # Calculadora usando notação polonesa inversa
 
+Repositório: [https://github.com/emersonmx/py-calc-rpn](https://github.com/emersonmx/py-calc-rpn)
+
 ## Propósito
 
 Estudar e aplicar os conceitos de SOLID, arquitetura limpa, DDD e afins.
