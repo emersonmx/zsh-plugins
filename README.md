@@ -10,4 +10,6 @@
 - [C](code/c.md)
 - [Rust](code/rust.md)
   - [Bevy](code/bevy.md)
+- Python
+  - [Django](code/django.md)
 - [TypeScript](code/typescript.md)
