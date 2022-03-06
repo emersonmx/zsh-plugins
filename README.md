@@ -15,3 +15,8 @@
 - [TypeScript](code/typescript.md)
   - [React](code/react.md)
   - [NextJS](code/nextjs.md)
+
+## Projects
+
+- [Calculadora usando notação polonesa inversa](projects/calc_rpn.md)
+- [Ideias](projects/ideas.md)
