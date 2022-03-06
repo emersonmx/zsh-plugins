@@ -13,3 +13,4 @@
 - Python
   - [Django](code/django.md)
 - [TypeScript](code/typescript.md)
+  - [NextJS](code/nextjs.md)
