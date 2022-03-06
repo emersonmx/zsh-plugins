@@ -97,3 +97,7 @@ caminho.
     "A": "."
 }
 ```
+
+## Sudoku
+
+[Solving Every Sudoku Puzzle](http://norvig.com/sudoku.html)
