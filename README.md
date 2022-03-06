@@ -6,6 +6,7 @@
 
 ## Code
 
+- [Books](code/books.md)
 - [Clean Architecture](code/clean_architecture.md)
 - [C](code/c.md)
 - [Rust](code/rust.md)
