@@ -2,9 +2,9 @@
 
 ## Livros, guias, referências, etc
 
-- [https://bevy-cheatbook.github.io/](https://bevy-cheatbook.github.io/)
-- [https://docs.rs/bevy/latest/bevy/index.html](https://docs.rs/bevy/latest/bevy/index.html)
-- [https://bevyengine.org/learn/book/introduction/](https://bevyengine.org/learn/book/introduction/)
+- [Unofficial Bevy Cheat Book](https://bevy-cheatbook.github.io/)
+- [Official Bevy Docs](https://docs.rs/bevy/latest/bevy/index.html)
+- [The Bevy Book](https://bevyengine.org/learn/book/introduction/)
 
 ## TODO
 

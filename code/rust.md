@@ -2,17 +2,17 @@
 
 ## Livros, guias, referências, etc
 
-- [https://doc.rust-lang.org/book/](https://doc.rust-lang.org/book/)
-- [https://doc.rust-lang.org/rust-by-example/](https://doc.rust-lang.org/rust-by-example/)
-- [https://rust-lang-nursery.github.io/rust-cookbook/](https://rust-lang-nursery.github.io/rust-cookbook/)
-- [https://dhghomon.github.io/easy_rust/](https://dhghomon.github.io/easy_rust/)
-- [https://cheats.rs/](https://cheats.rs/)
-- [https://rust-lang.github.io/api-guidelines/](https://rust-lang.github.io/api-guidelines/)
-- [https://rust-unofficial.github.io/patterns/](https://rust-unofficial.github.io/patterns/)
+- [The Rust Programming Language Book](https://doc.rust-lang.org/book/)
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+- [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
+- [Easy Rust](https://dhghomon.github.io/easy_rust/)
+- [Rust Language Cheat Sheet](https://cheats.rs/)
+- [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/)
+- [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
 
 ## Artigos
 
-- [https://www.worthe-it.co.za/blog/2020-10-31-newtype-pattern-in-rust.html](https://www.worthe-it.co.za/blog/2020-10-31-newtype-pattern-in-rust.html)
+- [The Newtype Pattern In Rust](https://www.worthe-it.co.za/blog/2020-10-31-newtype-pattern-in-rust.html)
 
 ## Lições aprendidas
 

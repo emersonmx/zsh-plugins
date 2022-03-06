@@ -23,7 +23,7 @@
 
 ## Awesome lists
 
-- [https://github.com/oz123/awesome-c](https://github.com/oz123/awesome-c)
+- [Awesome C](https://github.com/oz123/awesome-c)
 
 ## Livros, Referências e artigos
 
