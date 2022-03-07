@@ -6,7 +6,7 @@
 
 ## Code
 
-- [General Docs](code/docs.md)
+- [General](code/general.md)
 - [Clean Architecture](code/clean_architecture.md)
 - [C](code/c.md)
 - [Rust](code/rust.md)
