@@ -6,8 +6,7 @@
 
 ## Code
 
-- [Books](code/books.md)
-- [Games](code/games.md)
+- [General Docs](code/docs.md)
 - [Clean Architecture](code/clean_architecture.md)
 - [C](code/c.md)
 - [Rust](code/rust.md)
