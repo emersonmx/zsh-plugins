@@ -17,6 +17,7 @@
 - [x] simple_grid_move (mover sprite no grid)
 - [x] simple_tilemap (estudo sobre tilemap)
 - [x] simple_mouse_grab (estudo sobre mouse grab)
+- [x] simple_ui (estudo sobre ui)
 - [ ] simple_input_action (estudo sobre input maps)
 - [ ] simple_camera (estudo sobre camera)
 - [ ] simple_atlas (estudo sobre atlas)
@@ -26,7 +27,6 @@
 - [ ] simple_tween (estudo sobre interpolações)
 - [ ] grid_move_with_tween
 - [ ] simple_animator (estudo sobre a criação de um componente animator)
-- [ ] simple_ui (estudo sobre ui)
 - [ ] simple_gamepad_move
 - [ ] simple_game_states
 - [ ] animated_grid_move
