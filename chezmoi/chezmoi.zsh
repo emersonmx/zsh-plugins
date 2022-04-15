@@ -17,6 +17,10 @@ alias cmca="chezmoi chattr"
 alias cmma="chezmoi managed"
 alias cmum="chezmoi unmanaged"
 
+function cmdff() {
+    chezmoi diff | rg '^diff' | awk '{print $3}' | sed 's/^a/~/'
+}
+
 if (( $+commands[fzf] ))
 then
     function _chezmoi_fzf() {
