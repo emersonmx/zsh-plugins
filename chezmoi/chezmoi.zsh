@@ -26,7 +26,7 @@ function cmdff() {
 if (( $+commands[fzf] ))
 then
     function _chezmoi_fzf() {
-        managed_file="$(chezmoi managed | fzf)"
+        managed_file="$(chezmoi managed --path-style absolute | fzf)"
         [[ -n $managed_file ]] && echo $managed_file || return 1
     }
 
