@@ -7,6 +7,7 @@ fi
 alias cm="chezmoi"
 alias cmcd="chezmoi cd"
 alias cma="chezmoi add"
+alias cmaa="cmdff | xargs -I{} chezmoi add {}"
 alias cme="chezmoi edit"
 alias cmec="chezmoi edit-config"
 alias cmdf="chezmoi diff"
