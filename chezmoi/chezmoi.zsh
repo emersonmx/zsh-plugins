@@ -21,24 +21,19 @@ function cmdff() {
 
 if (( $+commands[fzf] ))
 then
-    function _chezmoi_fzf() {
-        managed_file="$(chezmoi managed --path-style absolute | fzf)"
-        [[ -n $managed_file ]] && echo $managed_file || return 1
-    }
-
     function fcme() {
-        chezmoi edit "$(_chezmoi_fzf)"
+        chezmoi edit "$(cmdff | fzf)"
     }
 
     function fcmdf() {
-        chezmoi diff "$(_chezmoi_fzf)"
+        chezmoi diff "$(cmdff | fzf)"
     }
 
     function fcmap() {
-        chezmoi apply -v "$(_chezmoi_fzf)"
+        chezmoi apply -v "$(cmdff | fzf)"
     }
 
     function fcmme() {
-        chezmoi merge "$(_chezmoi_fzf)"
+        chezmoi merge "$(cmdff | fzf)"
     }
 fi
