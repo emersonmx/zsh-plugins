@@ -22,7 +22,7 @@ function cmdff() {
 if (( $+commands[fzf] ))
 then
     function fcme() {
-        chezmoi edit "$(cmdff | fzf)"
+        chezmoi edit "$(chezmoi managed -p absolute | sed "s#$HOME#~#g" | fzf)"
     }
 
     function fcmdf() {
